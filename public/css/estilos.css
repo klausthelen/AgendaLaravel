@@ -1,0 +1,101 @@
+/*!
+ * Start Bootstrap - One Page Wonder (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+
+.masthead {
+  background: url('../images/agenda-book-business.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.masthead>.overlay {
+  padding: 5rem 0 ;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.initalfrase{
+
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
+
+}
+
+.list-group{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.linkspag{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+table{
+  overflow-x: auto;
+  overflow: scroll;
+}
+
+@media (max-width: 570px) {
+  body {
+    padding-top: 56px;
+  }
+  header.masthead>.overlay {
+    padding: 10rem 0;
+  }
+  h2{
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  .initalfrase{
+
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  }
+
+  .list-group{
+  margin-left: 0%;
+  margin-right: 0%;
+  }
+
+  .linkspag{
+  margin-left: 0%;
+  margin-right: 0%;
+  }
+}
+
+@media (max-width: 340px) {
+  .initalfrase{
+
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  }
+
+  .list-group{
+  margin-left: 0%;
+  margin-right: 0%;
+  }
+
+  .linkspag{
+  margin-left: 0%;
+  margin-right: 0%;
+  }
+}
